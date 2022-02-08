@@ -1,0 +1,10 @@
+	rnd	10
+ici :	dup
+	read	1000
+	push	1000
+	op	10
+	jpz	fin
+	iPop
+	jmp	ici
+fin :	write	1000
+	halt

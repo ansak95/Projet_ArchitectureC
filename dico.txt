@@ -1,0 +1,15 @@
+push	0
+iPush	1
+push#	2
+pop	3
+iPop	4
+dup	5
+op	6
+jmp	7
+jpz	8
+call	9
+ret 	10
+rnd	11
+write	12
+read	13
+halt	99
